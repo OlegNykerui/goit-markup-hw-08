@@ -1,0 +1,48 @@
+/* Чим ми займаємося */
+
+.creating {
+  padding-bottom: 94px;
+}
+
+.creating__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.creating__list {
+  display: flex;
+}
+
+.creating__items {
+  position: relative;
+}
+
+.creating__text {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 1);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.creating__items:not(:last-child) {
+  margin-right: 30px;
+}

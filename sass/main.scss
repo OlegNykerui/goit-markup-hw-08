@@ -1,0 +1,39 @@
+// Var
+@import './utils/variables';
+// Global
+@import './base/global';
+@import './base/container';
+
+// Header
+@import './components/header/header';
+@import './components/header/navigation';
+@import './components/header/contacts';
+
+// Hero
+@import './layaout/hero';
+@import './components/modal';
+
+// Feauters
+@import './layaout/feauters';
+
+// Creating
+@import './layaout/creating';
+
+// Team
+@import './layaout/team';
+@import './components/team-icon';
+
+// Clients
+@import './layaout/clients';
+
+// Footer
+@import './components/footer/footer';
+@import './components/footer/join';
+@import './components/footer/form-footer';
+
+// Portfoilio
+@import './layaout/portfolio/filter';
+@import './layaout/portfolio/cards';
+
+// Buttons
+@import './components/buttons';

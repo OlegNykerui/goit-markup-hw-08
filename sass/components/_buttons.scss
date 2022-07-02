@@ -1,0 +1,91 @@
+.hero__button {
+  font-family: inherit;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: none;
+
+  width: 200px;
+  height: 50px;
+}
+
+.modal__btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: var(--white-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    fill: var(--accent-color);
+    background-color: var(--white-color);
+  }
+}
+
+.form_modal-button {
+  width: 200px;
+  height: 50px;
+  padding: 10px 55px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  transform: scale(1);
+  transition: transform 255ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+}
+
+.filter__btn {
+  color: var(--title-text-color);
+  background-color: var(--section-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+
+  padding: 6px 22px;
+
+  text-align: center;
+
+  transition: background-color 255ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 255ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 255ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--white-color);
+    background-color: #2196f3;
+  }
+}

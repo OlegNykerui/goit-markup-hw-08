@@ -1,0 +1,50 @@
+/* футер */
+.footer {
+  background-color: var(--primary-background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  display: flex;
+}
+.footer__info {
+  margin-right: 70px;
+}
+
+.footer__logo--white {
+  display: block;
+  margin-bottom: 20px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address__items + .address__items {
+  margin-top: 10px;
+}
+
+.address__nav {
+  color: var(--white-color);
+}
+
+.footer__contacts {
+  color: var(--address-color);
+}

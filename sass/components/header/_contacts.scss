@@ -1,0 +1,30 @@
+.auth {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth .auth__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.auth__contacts {
+  color: var(--primary-text-color);
+  fill: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.auth__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
