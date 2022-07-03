@@ -1,30 +1,55 @@
 .auth {
   display: flex;
-  margin-left: auto;
+  // margin-left: auto;
+  flex-direction: column-reverse;
 }
 
-.auth .auth__item:not(:last-child) {
-  margin-right: 50px;
+// .auth .auth__item:not(:last-child) {
+//   margin-right: 50px;
+// }
+
+.auth__item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.auth__item:not(:last-child) {
+  margin-top: 32px;
 }
 
 .auth__contacts {
   color: var(--primary-text-color);
   fill: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 64px;
 
+  font-size: 24px;
+  line-height: 1.16;
+
+  color: #757575;
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
 }
 
+.auth__contacts--tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
+
 .auth__icon {
-  margin-right: 10px;
-  fill: currentColor;
+  display: none;
+  // margin-right: 10px;
+  // fill: currentColor;
 }

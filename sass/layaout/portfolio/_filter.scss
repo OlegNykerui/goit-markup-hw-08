@@ -2,15 +2,18 @@
 
 /* filter*/
 .main-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .filter {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: start;
 
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  row-gap: 15px;
+  column-gap: 8px;
 }
 
 .filter__items:hover {
@@ -18,6 +21,6 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.filter__items + .filter__items {
-  margin-left: 8px;
-}
+// .filter__items:not(:last-child) {
+//   margin-right: 8px;
+// }

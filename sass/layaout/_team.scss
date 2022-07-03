@@ -1,7 +1,8 @@
 /* Команда */
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
+  padding: 60px 0px;
 
   background-color: var(--section-background-color);
 }
@@ -13,16 +14,32 @@
   line-height: 1.17;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+// .team__items + .team__items {
+//   margin-left: 30px;
+// }
+
+.team__items:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__img {
+    width: 354px;
+    height: 374px;
+  }
 }
 
 .team__list {
-  display: flex;
+  display: block;
+  // display: flex;
 }
 
 .team__container {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 
 .team__name {

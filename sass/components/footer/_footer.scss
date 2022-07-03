@@ -10,10 +10,12 @@
 }
 
 .footer__container {
-  display: flex;
+  // display: flex;
+  display: block;
+  text-align: center;
 }
 .footer__info {
-  margin-right: 70px;
+  // margin-right: 70px;
 }
 
 .footer__logo--white {
@@ -35,6 +37,8 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  margin-bottom: 60px;
 }
 
 .address__items + .address__items {
