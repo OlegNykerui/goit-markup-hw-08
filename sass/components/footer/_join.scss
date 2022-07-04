@@ -11,6 +11,10 @@
   margin-bottom: 20px;
   padding-top: 12px;
 
+  @media screen and (min-width: 1200px) {
+    text-align: initial;
+  }
+
   color: var(--white-color);
 }
 

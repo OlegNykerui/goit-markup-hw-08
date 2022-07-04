@@ -1,6 +1,10 @@
 /* --------------Form------------ */
 .footer-form {
   margin-left: auto;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
 }
 
 .footer-form__title {
@@ -13,6 +17,10 @@
   padding-top: 12px;
   text-transform: uppercase;
   color: var(--white-color);
+
+  @media screen and (min-width: 1200px) {
+    text-align: initial;
+  }
 }
 
 .footer-form__box {
@@ -21,6 +29,11 @@
     flex-direction: column;
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      align-items: baseline;
+    }
   }
 }
 
@@ -39,5 +52,10 @@
 
   @media screen and (min-width: 768px) {
     width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
   }
 }

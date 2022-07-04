@@ -39,4 +39,12 @@
   margin-bottom: 30px;
   margin-left: 0px;
   margin-right: 0px;
+
+  @media screen and (min-width: 1200px) {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    color: #ffffff;
+  }
 }

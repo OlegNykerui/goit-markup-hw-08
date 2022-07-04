@@ -3,6 +3,10 @@
 .creating {
   padding-bottom: 94px;
   display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 
 .creating__title {
