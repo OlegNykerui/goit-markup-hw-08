@@ -14,6 +14,14 @@
   display: block;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__tablet {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 .footer__info {
   // margin-right: 70px;
 }

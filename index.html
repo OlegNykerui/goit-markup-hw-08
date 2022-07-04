@@ -280,7 +280,7 @@
             </li>
 
             <li class="team__items">
-              <img src="./images/img-12.jpg" alt="Фото Ольга Репина" />
+              <img class="team__img" src="./images/img-12.jpg" alt="Фото Ольга Репина" />
               <div class="team__container">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -318,7 +318,7 @@
             </li>
 
             <li class="team__items">
-              <img src="./images/img-13.jpg" alt="Фото Николай Тарасов" />
+              <img class="team__img" src="./images/img-13.jpg" alt="Фото Николай Тарасов" />
               <div class="team__container">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -355,7 +355,7 @@
               </div>
             </li>
             <li class="team__items">
-              <img src="./images/img-14.jpg" alt="Фото Михаил Ермаков" />
+              <img class="team__img" src="./images/img-14.jpg" alt="Фото Михаил Ермаков" />
               <div class="team__container">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__text">UI Designer</p>
@@ -450,65 +450,67 @@
 
     <footer class="footer">
       <div class="footer__container container">
-        <div class="footer__info">
-          <a class="footer__logo--white" href="./index.html"
-            ><span class="logo--web link">Web</span>Studio</a
-          >
-          <address class="address">
-            <ul class="address__list list">
-              <li class="address__items">
-                <a
-                  class="address__nav link"
-                  href="https://www.google.com.ua/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+        <div class="footer__tablet">
+          <div class="footer__info">
+            <a class="footer__logo--white" href="./index.html"
+              ><span class="logo--web link">Web</span>Studio</a
+            >
+            <address class="address">
+              <ul class="address__list list">
+                <li class="address__items">
+                  <a
+                    class="address__nav link"
+                    href="https://www.google.com.ua/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="address__items">
+                  <a class="footer__contacts link" href="mailto:info@devstudio.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="address__items">
+                  <a class="footer__contacts link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="join">
+            <h2 class="join__title">присоединяйтесь</h2>
+            <ul class="join__list">
+              <li class="join__list">
+                <a class="join__link" href="">
+                  <svg width="20" height="20">
+                    <use href="./images/sprite.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address__items">
-                <a class="footer__contacts link" href="mailto:info@devstudio.com"
-                  >info@example.com</a
-                >
+              <li class="join__list">
+                <a class="join__link" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address__items">
-                <a class="footer__contacts link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="join__list">
+                <a class="join__link" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join__list">
+                <a class="join__link" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-
-        <div class="join">
-          <h2 class="join__title">присоединяйтесь</h2>
-          <ul class="join__list">
-            <li class="join__list">
-              <a class="join__link" href="">
-                <svg width="20" height="20">
-                  <use href="./images/sprite.svg#icon-instagram-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join__list">
-              <a class="join__link" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/sprite.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join__list">
-              <a class="join__link" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/sprite.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join__list">
-              <a class="join__link" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/sprite.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
 
         <form class="footer-form">

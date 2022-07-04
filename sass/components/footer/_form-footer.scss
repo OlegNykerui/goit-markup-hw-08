@@ -17,6 +17,11 @@
 
 .footer-form__box {
   // display: flex;
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .footer-form__input {
@@ -31,4 +36,8 @@
   outline: transparent;
 
   margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
 }

@@ -2,6 +2,11 @@
   display: flex;
   // margin-left: auto;
   flex-direction: column-reverse;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    align-items: baseline;
+  }
 }
 
 // .auth .auth__item:not(:last-child) {
@@ -11,10 +16,19 @@
 .auth__item {
   display: flex;
   justify-content: flex-start;
+
+  @media screen and (min-width: 768px) {
+    align-items: center;
+  }
 }
 
 .auth__item:not(:last-child) {
   margin-top: 32px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
 }
 
 .auth__contacts {
@@ -33,9 +47,17 @@
   line-height: 1.16;
 
   color: #757575;
+
   &:hover,
   &:focus {
     color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    margin-bottom: 0px;
   }
 }
 
@@ -46,10 +68,24 @@
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
+
+  @media screen and (min-width: 768px) {
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+
+    color: #757575;
+  }
 }
 
 .auth__icon {
   display: none;
   // margin-right: 10px;
   // fill: currentColor;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-right: 8px;
+    fill: #757575;
+  }
 }
