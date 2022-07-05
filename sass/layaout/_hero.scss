@@ -5,24 +5,46 @@
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--primary-background-color);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero/img-hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: var(--primary-background-color);
 
-  text-align: center;
-  padding: 118px 0px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/header-img-s.jpg);
 
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-    height: 400px;
-  }
-  @media screen and (min-width: 1200px) {
-    max-width: 1600px;
-    height: 600px;
-    padding: 200px 0px;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/hero/header-img2xxxxx.jpg);
+
+    text-align: center;
+    padding: 118px 0px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+      height: 400px;
+
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero/header-img-m.jpg);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(../images/hero/header-img@2x-m.jpg);
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 1600px;
+      height: 600px;
+      padding: 200px 0px;
+
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero/img-hero.jpg);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(../images/hero/img-dex-2x.jpg);
+      }
+    }
   }
 }
 

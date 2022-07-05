@@ -34,6 +34,13 @@
   }
 }
 
+.cards__link {
+  height: 100%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
 .cards__overlay {
   position: relative;
   overflow: hidden;
@@ -48,6 +55,7 @@
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
+  flex-grow: 2;
 }
 
 .cards__title {

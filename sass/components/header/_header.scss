@@ -17,6 +17,7 @@
 
   @media screen and (min-width: 768px) {
     height: 80px;
+    justify-content: center;
   }
 
   @media screen and (min-width: 1200px) {
@@ -104,12 +105,16 @@
 }
 
 .mobile {
-  display: flex;
-  justify-content: center;
+  margin-top: 64px;
+  text-align: initial;
 
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+
+.mobile__list {
+  margin-top: 64px;
 }
 
 .mobile__link {
