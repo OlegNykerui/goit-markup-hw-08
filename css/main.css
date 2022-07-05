@@ -423,7 +423,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .auth__contacts {
-    align-items: flex-start;
+    align-items: inherit;
     font-size: 14px;
     line-height: 1.14;
   }
