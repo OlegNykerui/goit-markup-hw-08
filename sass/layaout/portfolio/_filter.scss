@@ -4,6 +4,11 @@
 .main-portfolio {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .filter {
@@ -17,7 +22,11 @@
 
   @media screen and (min-width: 768px) {
     justify-content: center;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
   }
 }
 
