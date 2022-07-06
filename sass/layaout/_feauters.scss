@@ -4,7 +4,8 @@
   padding: 60px 0px;
 
   @media screen and (min-width: 768px) {
-    padding: 60px 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -35,7 +36,7 @@
   }
 }
 
-.feauters__item:nth-child(2n + 1) {
+.features__item:nth-child(2n + 1) {
   margin-right: 30px;
 
   @media screen and (max-width: 768px) {
@@ -52,8 +53,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+}
 .feauters__item:last-child {
   margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .feauters__item {
+    gap: 30px;
+  }
 }
 
 .feauters__container {
